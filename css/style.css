@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap ');
+
+
+*{
+	font-family: 'poppins';
+    transition: .3s;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+/* span{
+    color: #C310E4;
+    text-transform: uppercase;
+    font-weight: 600;
+} */
+.mybtn {
+    background: transparent;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.mybtn:hover{
+    background: #6A961F;
+    border: 2px solid #6A961F;
+    box-shadow: 0 0 2rem #6A961F;
+    color: #fff;
+}
+/* header section start here----------------- */
+.header{
+    padding: 10px 0px;
+}
+.header .navbar-brand{
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.header .my-custom a.nav-link {
+    font-size: 14px;
+    margin-left: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+/* Counter Section Start here */
+.counter{
+    background: #F8F9FA;
+    padding: 30px 0px;
+}
+.counter .counter-box{
+    align-items: center;
+}
+.counter-box .counter-box-icone i {
+    width: 60px;
+    height: 60px;
+    padding: 11px;
+    padding-top: 13px;
+    font-size: 35px;
+    color: #fff;
+    background: #B1B493;
+    border-radius: 100%;
+}
+.counter-box .counter-box-icone i.fa-person{
+    padding-left: 18px !important;
+}
+.counter-box .counter-box-text span{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+.counter-box .counter-box-text h4{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #B1B493;
+}
+/* Counter Section End here */
+
+/* About section start here---------------- */
+.about{
+    padding: 100px 0px;
+}
+.about .about-section img{
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+.about .about-text h2{
+    font-size: 28px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.about .about-text p{
+    font-size: 15px;
+    color: #B1B493;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.about .about-text .about-info{
+    margin-bottom: 20px;
+}
+.about .about-text .about-info .about-info-name p{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;    
+}
+.about-text .about-info .about-info-description{
+    margin-left: 15px;
+}
+.about-text .about-info .about-info-description p {
+    color: #B1B493;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px !important;
+}
+.about-text .about-info .about-info-description p:last-child {
+    color: #B1B493;
+    font-weight: 600;
+    text-transform: lowercase;
+    margin-bottom: 10px !important;
+}
+.about .about-icone p{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-left: 2px solid black;
+    padding-left: 20px;
+}
+.about .about-icone p i {
+    color :#fff;
+    background: #B1B493;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+/* About section end here---------------- */
+
+
+
+/* Services section start here--------------------- */
+.services{
+    padding: 50px 0px;
+    padding-bottom: 120px;
+}
+.services .services-heading{
+    padding-bottom: 20px;
+}
+.services .services-heading span{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #B1B493;
+    font-size: 16px;
+    font-weight: 500;
+}
+.services .services-heading h2{
+    font-size: 38px;
+    font-weight: 600;
+    color: #191919;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.services .services-heading p{
+    font-size: 15px;
+    color: #B1B493;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.services .card{
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)!important;
+    border: 0;
+}
+.services .card:hover{
+    background: #B1B493;
+}
+.services .card:hover img.hover-img{
+    background: white !important;
+    position: absolute;
+    left: 50px;
+}
+.services .card:hover .card-box img.hover-img{
+    position: absolute;
+    left: 50px;
+}
+.services .card:hover h2.hover-efect{
+    color: white !important;
+}
+.services .card:hover p.hover-efect1{
+    color: #f6f8e6 !important;
+}
+.services .card .card-body .card-box{
+    padding: 20px 10px;
+    position: relative;
+}
+.services .card .card-body .card-box img {
+    width: 80px;
+    padding: 20px;
+    background: #B1B493;
+    border-radius: 100%;
+    position: absolute;
+    content: '';
+    top: -45px;
+    left: 22px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)!important;
+}
+.services .card .card-body .card-box h2{
+    font-size: 2rem;
+    color: #191919;
+    margin-bottom: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.services .card .card-body .card-box p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #B1B493;
+    font-weight: 500;
+}
+.extra-pmargin{
+    margin-top: 60px;
+}
+/* Services section start here--------------------- */
+/* Hire me section start here-------------- */
+.hire-me{
+    padding: 30px 0px;
+    background: #B1B493;
+    align-items: center;
+}
+.hire-me .hire-me-text h2{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.hire-me .hire-me-text p{
+    font-size: 16px;
+    text-align: justify;
+    width: 90%;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.hire-me .hire-me-text button{
+    background: #fff !important;
+    padding: 10px 20px;
+    color: #B1B493;
+    border-radius: 10px;
+    font-size: 14px;
+    border: 1px solid #fff;
+}
+.hire-me .hire-me-text button:hover{
+    background: #eeeded !important;
+}
+.hire-me-img{
+    position: relative;
+}
+.hire-me .hire-me-img img {
+    position: absolute;
+    top: -112px;
+    content: '';
+    right: 0;
+    height: 300px;
+    width: 300px;
+}
+/* Hire me section ends here-------------- */
+
+/* Projects section----------------------------- */
+.project{
+    padding: 50px 0px;
+}
+.project .services-heading{
+    padding-bottom: 20px;
+}
+.project .project-heading span{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #B1B493;
+    font-size: 16px;
+    font-weight: 500;
+}
+.project .project-heading h2{
+    font-size: 38px;
+    font-weight: 600;
+    color: #191919;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.project .project-heading p{
+    font-size: 15px;
+    color: #B1B493;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.project .project-box {
+    border-radius: 10px;
+    position: relative;
+    height: 170px;
+}
+.project .project-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.project .project-box .project-box-hover-item {
+    position: absolute;
+    content: '';
+    top: 15%;
+    left: 15%;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    opacity: 0;
+}
+.project .project-box:hover .project-box-hover-item{
+    opacity: 1;
+    z-index: 10;
+}
+.project .project-box:hover .overlay{
+    opacity: 1;
+}
+.project-box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: #000000a3;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: 0;
+}
+.project .project-box .project-box-hover-item h2{
+    font-size: 20px;
+    padding: 10px 0;
+    color: white;
+}
+.project .project-box .project-box-hover-item h4{
+    font-size: 16px;
+    color: #e0d8d8;
+    text-transform: uppercase;
+}
+.extra-p-box-margin{
+    margin-top: 30px;
+}
+/* Projects section end---------------------------- */
+
+/* Testimonial section start here---------------- */
+.testimonial{
+    background: #B1B493;
+    padding: 50px 0;
+}
+
+.testimonial .services-heading{
+    padding-bottom: 20px;
+}
+.testimonial .testimonial-heading span{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.testimonial .testimonial-heading h2{
+    font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.testimonial .testimonial-heading p{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+
+/* Testimonial section ends here--------------------- */
+.my-custom .mx-auto {
+    margin-right: 0 !important;
+    margin-left: auto!important;
+}
+
+
+
+/* contact section start here-------------------- */
+.contact{
+    padding: 50px 0;
+}
+.contact .contact-heading{
+    padding-bottom: 20px;
+}
+.contact .contact-heading h2{
+    font-size: 38px;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.contact .contact-heading p{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.contact .contact-form{
+    background: #F8F9FA;
+    padding: 50px;
+    border-radius: 10px;
+}
+.contact .contact-form .form input{
+    width: 100% !important;
+    outline: none;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #000000a3;
+}
+.contact .contact-form .form textarea{
+    width: 100% !important;
+    outline: none;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #000000a3;
+    resize: none;
+}
+.contact .contact-form .form button{
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+    background: #B1B493 !important;
+}
+.contact .contact-form .form button:hover{
+    background: #b1b493d3 !important;
+}
+.contact .contact-text{
+    padding: 20px;
+    padding-left: 50px;
+}
+.contact .contact-text .contact-text-row{
+    margin-bottom: 50px;
+}
+.contact .contact-text .contact-text-row i{
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    padding: 19px;
+    color: #fff;
+    background: #B1B493;
+    border-radius: 100%;
+}
+.contact .contact-text .contact-text-row .simple-text{
+    margin-left: 20px;
+}
+.contact .contact-text .contact-text-row .simple-text span{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.contact .contact-text .contact-text-row .simple-text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #B1B493;
+}
+/* contact section start here-------------------- */
+
+/* Map------------------- */
+.map{
+    padding-bottom: 20px;
+}
+.map .map-box iframe{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    outline: none;
+}
+/* map------------------- */
+
+/* Footerrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
+.footer{
+    background: #232931;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+.footer-box p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.footer-box p span{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #e5ff00;
+}
